@@ -2,6 +2,7 @@ import React,{useContext} from "react";
 import "../App.css"
 import Footer from "../components/footer";
 import Header from "../components/header";
+import ScrollContext from "../context/scrollContext";
 import WindowSizeContext from "../context/windowSizeContext";
 
 
@@ -14,7 +15,11 @@ const Uni=()=>{
   
   const mainGridStyle={
     height:`${heightNeeded}px`
+
+    
   }
+  const scrollPosition=useContext(ScrollContext);
+
   return(
     
       <div className="mainGrid" style={mainGridStyle} >
@@ -58,7 +63,8 @@ Nullam vehicula ipsum a arcu cursus vitae. Nunc sed blandit libero volutpat sed 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Tincidunt ornare massa eget egestas purus viverra. Semper auctor neque vitae tempus quam pellentesque nec nam. Nulla pharetra diam sit amet nisl. Vitae congue eu consequat ac felis. Ut ornare lectus sit amet est placerat. Scelerisque viverra mauris in aliquam sem fringilla. In hendrerit gravida rutrum quisque non tellus orci ac auctor. A diam sollicitudin tempor id eu nisl nunc. Vivamus at augue eget arcu dictum varius duis at. Justo eget magna fermentum iaculis eu. Nam libero justo laoreet sit amet cursus sit. Odio eu feugiat pretium nibh. Erat pellentesque adipiscing commodo elit at imperdiet. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Et netus et malesuada fames ac turpis. Amet nisl suscipit adipiscing bibendum est. Leo urna molestie at elementum eu facilisis sed odio. Tincidunt tortor aliquam nulla facilisi cras.
 </div>
       </div>
-      <Footer/>
+      {scrollPosition>=360?<Footer/>:""}
+      
 
     </div>
     

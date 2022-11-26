@@ -1,6 +1,6 @@
 .mainGrid{
     display:grid;
-    
+    padding-bottom: 30px
 }
 .header{
     display: grid;
@@ -17,7 +17,7 @@
 }
 .bodyPart{
     
-    margin-top: 12%;    
+    margin-top: 5rem;    
 }
 .footer{
     display:grid;
@@ -25,4 +25,19 @@
     background-color: black;
     padding: 30px;
     color: white;
+    width: 100%;
+    position: fixed;
+  bottom: 0;
+  animation: fadeInAnimation ease 1s ;
+ 
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }

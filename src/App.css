@@ -84,6 +84,11 @@
     background: linear-gradient(to right, #8fffef,#f6f493, #f6f493);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}.onebytwogradient{
+    
+    background: linear-gradient(to right, #da88b9 ,#f6f493, #f6f493);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .lineH{
     line-height: 54px;
@@ -119,8 +124,38 @@ img.vert-move {
     color :white;
     font-size: larger;
     font-weight: 600;
+}.knowMoreButtonMobile{
+    border:white 1px solid;
+    padding: 7px;
+    width: 8rem;
+    text-align: center;
+    color :white;
+    font-size: medium;
+    font-weight: 600;
 }
 .knowMoreButton:hover{
     border-color: #00dcc8;
     color :#00dcc8
+}
+.knowMoreButtonMobile:hover{
+    border-color: #00dcc8;
+    color :#00dcc8
+}
+.spliThreeText{
+    font-size: 56px;
+    line-height: 53px;
+    font-weight: 500;
+    
+}
+.spliThreeSubText{
+color:#525656;
+font-size: 26px;
+font-weight: 500;
+line-height: 30px;
+}
+.spliThreeSubTextMobile{
+    color:#525656;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
 }

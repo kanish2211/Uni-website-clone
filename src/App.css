@@ -9,6 +9,7 @@
     padding: 30px;
     color: white;
     position: fixed;
+    z-index: 40;
     width:100%;    
 }
 .headerInnerdiv{
@@ -52,7 +53,8 @@
 }
 .applyMobileViewButton {
     background-color: #fdef78 ;
-    width:37rem;
+    margin: auto;
+    width: 90%;
     
 }
 .applyInput{
@@ -76,4 +78,49 @@
 }
 .declarationText{
     font-size: xx-small;
+}
+.onebythreegradient{
+    
+    background: linear-gradient(to right, #8fffef,#f6f493, #f6f493);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lineH{
+    line-height: 54px;
+    
+    font-weight: 600;
+    font-stretch: ultra-condensed 
+}
+.textSize{
+    font-size: 59px;
+    z-index: 30;
+}
+img.vert-move {
+    animation: mover 2s infinite  alternate;
+    
+}
+
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-13px); }
+}
+
+.textSizeMobile{
+    font-size: xx-large;
+    font-weight: 600;
+    line-height: 40px;
+}
+.knowMoreButton{
+    border:white 1px solid;
+    padding: 10px;
+    width: 12rem;
+    text-align: center;
+    color :white;
+    font-size: larger;
+    font-weight: 600;
+}
+.knowMoreButton:hover{
+    border-color: #00dcc8;
+    color :#00dcc8
 }

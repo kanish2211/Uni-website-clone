@@ -5,6 +5,8 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import ScrollContext from "../context/scrollContext";
 import WindowSizeContext from "../context/windowSizeContext";
+import Split3 from "../pages/split3";
+import UniIntro from "../pages/uniIntro";
 
 
 
@@ -28,17 +30,9 @@ const Uni=()=>{
       <div><Header/></div>
       
       <div className="bodyPart">
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nunc faucibus a pellentesque sit amet porttitor eget. Quis eleifend quam adipiscing vitae proin sagittis. Quis blandit turpis cursus in. Fermentum et sollicitudin ac orci. Quis lectus nulla at volutpat diam ut venenatis tellus. Eget nunc scelerisque viverra mauris in aliquam sem fringilla. Tortor condimentum lacinia quis vel. In eu mi bibendum neque egestas congue. Pretium nibh ipsum consequat nisl vel. Massa massa ultricies mi quis hendrerit. Vulputate dignissim suspendisse in est ante in nibh mauris. Fames ac turpis egestas maecenas pharetra convallis. Purus sit amet volutpat consequat mauris nunc congue.
-
-Nunc consequat interdum varius sit amet mattis vulputate enim nulla. Arcu dictum varius duis at consectetur lorem donec massa. Nulla at volutpat diam ut venenatis. Quis vel eros donec ac odio tempor orci dapibus. Egestas sed sed risus pretium quam vulputate dignissim suspendisse in. Cursus mattis molestie a iaculis at erat. Curabitur vitae nunc sed velit dignissim. Elementum nibh tellus molestie nunc non. Dignissim suspendisse in est ante in nibh. Accumsan sit amet nulla facilisi. Ultricies mi quis hendrerit dolor magna eget est lorem.
-
-Scelerisque in dictum non consectetur a erat nam. Vel eros donec ac
- odio tempor orci dapibus. Orci phasellus egestas tellus rutrum tellus. 
- Imperdiet proin fermentum leo vel orci porta non pulvinar neque. Purus
-  in mollis nunc sed id semper risus. Vulputate odio ut enim blandit volutpat maecenas
-   volutpat. Pulvinar etiam non quam lacus suspendisse faucibus interdum. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. Amet mauris commodo quis imperdiet massa tincidunt. Mi proin sed libero enim. Molestie at elementum eu facilisis sed odio morbi quis commodo. Sit amet aliquam id diam. Vestibulum lectus mauris ultrices eros in cursus. Egestas sed tempus urna et pharetra pharetra. Etiam erat velit scelerisque in dictum non. Accumsan lacus vel facilisis volutpat est velit egestas dui. Pellentesque dignissim enim sit amet. Dolor purus non enim praesent. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi.
-
-Ipsum nunc aliquet bibendum enim facilisis gravida. Curabitur vitae nunc sed velit dignissim sodales ut eu. Dui nunc mattis enim ut tellus elementum. Nunc sed velit dignissim sodales ut eu. Placerat vestibulum lectus mauris ultrices eros in. Nec dui nunc mattis enim ut tellus elementum sagittis vitae. Etiam erat velit scelerisque in. Senectus et netus et malesuada fames ac turpis egestas. Integer eget aliquet nibh praesent tristique magna sit. Nisi lacus sed viverra tellus in hac habitasse. Laoreet id donec ultrices tincidunt arcu non sodales neque sodales.
+        <UniIntro/>
+        <Split3/>
+        <div>Ipsum nunc aliquet bibendum enim facilisis gravida. Curabitur vitae nunc sed velit dignissim sodales ut eu. Dui nunc mattis enim ut tellus elementum. Nunc sed velit dignissim sodales ut eu. Placerat vestibulum lectus mauris ultrices eros in. Nec dui nunc mattis enim ut tellus elementum sagittis vitae. Etiam erat velit scelerisque in. Senectus et netus et malesuada fames ac turpis egestas. Integer eget aliquet nibh praesent tristique magna sit. Nisi lacus sed viverra tellus in hac habitasse. Laoreet id donec ultrices tincidunt arcu non sodales neque sodales.
 
 Justo donec enim diam vulputate ut pharetra. Augue neque gravida in 
 fermentum et sollicitudin ac orci phasellus. Tincidunt augue interdum velit euismod in. Suspendisse faucibus interdum posuere lorem ipsum dolor. Neque volutpat ac tincidunt vitae semper quis. Orci porta non pulvinar neque laoreet suspendisse. Magna etiam tempor orci eu lobortis elementum nibh. Purus non enim praesent elementum facilisis leo vel fringilla est. Vulputate dignissim suspendisse in est. Natoque penatibus et magnis dis parturient montes. Amet justo donec enim diam. Adipiscing bibendum est ultricies integer. Quisque non tellus orci ac auctor augue mauris augue. Blandit massa enim nec dui. Est sit amet facilisis magna etiam tempor. Hendrerit dolor magna eget est lorem ipsum dolor.
@@ -65,7 +59,7 @@ Nullam vehicula ipsum a arcu cursus vitae. Nunc sed blandit libero volutpat sed 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Tincidunt ornare massa eget egestas purus viverra. Semper auctor neque vitae tempus quam pellentesque nec nam. Nulla pharetra diam sit amet nisl. Vitae congue eu consequat ac felis. Ut ornare lectus sit amet est placerat. Scelerisque viverra mauris in aliquam sem fringilla. In hendrerit gravida rutrum quisque non tellus orci ac auctor. A diam sollicitudin tempor id eu nisl nunc. Vivamus at augue eget arcu dictum varius duis at. Justo eget magna fermentum iaculis eu. Nam libero justo laoreet sit amet cursus sit. Odio eu feugiat pretium nibh. Erat pellentesque adipiscing commodo elit at imperdiet. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Et netus et malesuada fames ac turpis. Amet nisl suscipit adipiscing bibendum est. Leo urna molestie at elementum eu facilisis sed odio. Tincidunt tortor aliquam nulla facilisi cras.
 </div>
 </div>
-    {windowWidth>740?(scrollPosition>=360?<Footer/>:""):(<ApplyMobileView/>)}
+    {windowWidth>770?(scrollPosition>=360?<Footer/>:""):(<ApplyMobileView/>)}
     
       
 

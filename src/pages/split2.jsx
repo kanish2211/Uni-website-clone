@@ -11,7 +11,7 @@ const Split2=()=>{
     return(
         <div>
         {width>=770?
-        <div className="bg-black grid grid-cols-2 gap-1 pt-20" style={screenHeight}>
+        <div className="bg-black grid grid-cols-2 gap-1 pt-10" style={screenHeight}>
            <div className="mt-12 lg:mt-2 xl:-mt-2 lg:ml-12 xl:ml-132" > <video className="w-80 lg:w-96  " muted="" playsinline="" disablepictureinpicture="" ><source src="https://www.uni.cards/videos/pay_half.mp4" type="video/mp4"/><source src="https://www.uni.cards/videos/pay_half.webm" type="video/webm"/></video></div>
             
             <div className="text-white mt-10  ">

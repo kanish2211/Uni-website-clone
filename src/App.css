@@ -90,6 +90,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.uniGreen{
+    color:#00dcc8
+}
+.onebythreegradientLong{
+    
+    background: linear-gradient(to right, #8fffef,#f6f493);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .lineH{
     line-height: 54px;
     
@@ -158,4 +167,9 @@ line-height: 30px;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
+}
+
+.infoText{
+    line-height: 50px;
+    font-size: 36px;
 }

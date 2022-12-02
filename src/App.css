@@ -173,3 +173,6 @@ line-height: 30px;
     line-height: 50px;
     font-size: 36px;
 }
+.gradientArrow{
+    background-image: linear-gradient(to right,  #8fffef,#f6f493);
+}

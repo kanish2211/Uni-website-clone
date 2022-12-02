@@ -1,4 +1,5 @@
 import React,{useContext} from "react";
+import Arrow from "../components/arrow";
 
 const InfoText=()=>{
     
@@ -8,6 +9,7 @@ const InfoText=()=>{
             <p><span className="uniGreen"> Earn the best rewards.</span> Enjoy round the clock <span className="uniGreen">WhatsApp support.</span> It</p>
             <p>takes just 5 minutes to get your card, and it's <span className="onebythreegradientLong">lifetime free:</span> no</p>
             <p>joining fee, no annual charges.</p>
+            <Arrow/>
         </div>
     )
 }

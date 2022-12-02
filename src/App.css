@@ -113,11 +113,21 @@ img.vert-move {
     animation: mover 2s infinite  alternate;
     
 }
+.rot{
+   transform:translateY(0px) rotate(180deg) translateZ(0px);
+   animation: moverin 2s infinite  alternate;
+}
 
 
 @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-13px); }
+}
+@keyframes moverin {
+    0% { transform: translateY(-13px); }
+
+    100% { transform: translateY(0); }
+    
 }
 
 .textSizeMobile{

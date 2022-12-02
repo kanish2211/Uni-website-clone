@@ -5,6 +5,8 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import ScrollContext from "../context/scrollContext";
 import WindowSizeContext from "../context/windowSizeContext";
+import CashOut from "../pages/cashOut";
+import Emi from "../pages/emi";
 import InfoText from "../pages/infoText";
 import Rewards from "../pages/rewards";
 import Split2 from "../pages/split2";
@@ -40,6 +42,8 @@ const Uni=()=>{
         <InfoText/>
         <Visa/>
         <Rewards/>
+        <Emi/>
+        <CashOut/>
         <div>
 Pellentesque habitant morbi tristique senectus et netus. Lacus sed turpis tincidunt id aliquet. At ultrices mi tempus imperdiet nulla. Nibh nisl condimentum id venenatis. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Morbi leo urna molestie at elementum eu facilisis sed odio. Vel facilisis volutpat est velit egestas dui. Sagittis orci a scelerisque purus semper eget duis. Vivamus arcu felis bibendum ut. Risus quis varius quam quisque id diam vel quam elementum. Neque laoreet suspendisse interdum consectetur. Justo nec ultrices dui sapien eget mi proin. Eget est lorem ipsum dolor sit amet. Aliquam sem et tortor consequat id porta.
 

@@ -12,9 +12,8 @@ const Split2=()=>{
         <div>
         {width>=770?
         <div className="bg-black grid grid-cols-2 gap-1 pt-10" style={screenHeight}>
-           <div className="mt-12 lg:mt-2 xl:-mt-2 lg:ml-12 xl:ml-132" > <video className="w-80 lg:w-96  " muted="" playsinline="" disablepictureinpicture="" ><source src="https://www.uni.cards/videos/pay_half.mp4" type="video/mp4"/><source src="https://www.uni.cards/videos/pay_half.webm" type="video/webm"/></video></div>
             
-            <div className="text-white mt-10  ">
+            <div className="text-white mt-10 xl:ml-auto xl:mr-32 ml-8 md:ml-28 lg:ml-36 ">
                 <div className="-ml-12">
                     <p className="onebytwogradient text-4xl">Uni Pay 1/2 Card</p>
                     <p className="spliThreeText">Smart Payments,</p>
@@ -28,6 +27,8 @@ const Split2=()=>{
                 </div>
                 
             </div>
+           <div className="mt-12 lg:mt-2 xl:-mt-2 lg:ml-8 xl:ml-32" > <video className="w-80 lg:w-96  " muted="" playsinline="" disablepictureinpicture="" ><source src="https://www.uni.cards/videos/pay_half.mp4" type="video/mp4"/><source src="https://www.uni.cards/videos/pay_half.webm" type="video/webm"/></video></div>
+
         </div>
         :
         <div>

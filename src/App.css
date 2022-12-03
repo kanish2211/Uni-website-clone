@@ -186,3 +186,12 @@ line-height: 30px;
 .gradientArrow{
     background-image: linear-gradient(to right,  #8fffef,#f6f493);
 }
+.instantCreditImage{
+    width:15cm
+}
+.cusyomWidthInstantCredit{
+   width: auto;
+}
+.instantCreditImageMobile{
+    width:12cm
+}

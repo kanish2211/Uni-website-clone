@@ -15,9 +15,9 @@ const Emi=()=>{
                     
                     
                 </div>
-                <div className="mt-16">
-                    <img className=" ml-12 lg:w-8/12 w-60 rotate-180 " src="https://www.uni.cards/images/redesign/semi-circle.svg"/>
-                    <img className="lg:-mt-64 lg:w-96 -mt-60 w-80 absolute " src="https://www.uni.cards/images/redesign/time.webp"/>
+                <div className="mt-24">
+                    <img className=" ml-12 lg:w-7/12 w-60 rotate-180 " src="https://www.uni.cards/images/redesign/semi-circle.svg"/>
+                    <img className="lg:-mt-72 lg:w-96 -mt-60 w-80 absolute " src="https://www.uni.cards/images/redesign/time.webp"/>
                 </div>
 
             </div>

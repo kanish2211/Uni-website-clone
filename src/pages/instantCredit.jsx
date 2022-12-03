@@ -13,7 +13,7 @@ const InstantCredit=()=>{
         {width>=770?
         <div className="bg-black grid grid-cols-2 gap-1 h-auto pt-4 pb-4  " >
             
-            <div className="cusyomWidthInstantCredit text-white xl:mt-72 xl:-ml-10 xl:mr-32 -ml-2 sm:-ml-16 lg:-ml-10   lg:mt-60 md:mt-16 sm:mt-2 mt-0">
+            <div className="cusyomWidthInstantCredit text-white xl:mt-72 xl:-ml-2 xl:mr-32 -ml-2 sm:-ml-6 lg:-ml-6   lg:mt-60 md:mt-16 sm:mt-2 mt-0">
                 <div className="ml-14">
                     <p className="text-4xl ">We’ve all heard of instant groceries, now say hello to</p>
                     <p className="onebythreegradient text-4xl ">instant credit.</p>

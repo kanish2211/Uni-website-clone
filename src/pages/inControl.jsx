@@ -27,7 +27,7 @@ const InControl=()=>{
                 </div>
                 
             </div>
-           <div className="mt-6 lg:mt-12 xl:mt-14 lg:ml-6 xl:ml-14 xl:w-96 ml-24 lg:w-80 sm:w-76 w-56" > <img  src="https://www.uni.cards/images/redesign/app_screen_2.webp"/></div>
+           <div className="mt-6 lg:mt-12 xl:mt-14 lg:ml-6 xl:ml-14 xl:w-96 ml-24 lg:w-80 sm:w-76 w-56" > <img  src="https://www.uni.cards/images/redesign/app_screen_1.webp"/></div>
 
         </div>
         :
@@ -46,7 +46,7 @@ const InControl=()=>{
                 </div>
                    
                 </div>  
-                <div className=" w-96 mx-auto" > <img className="instantCreditImageMobile" src="https://www.uni.cards/images/redesign/app_screen_2.webp"/></div>
+                <div className=" w-96 mx-auto" > <img className="instantCreditImageMobile" src="https://www.uni.cards/images/redesign/app_screen_1.webp"/></div>
 
             </div>
         </div>

@@ -1,5 +1,5 @@
-import React,{useContext} from "react";
-import "../App.css"
+import React, { useContext } from "react";
+import "../App.css";
 import ApplyMobileView from "../components/applyMobileView";
 import Footer from "../components/footer";
 import Header from "../components/header";
@@ -22,54 +22,55 @@ import ThreeGrid from "../pages/threeGrid";
 import UniIntro from "../pages/uniIntro";
 import Visa from "../pages/visa";
 
+const Uni = () => {
+  const windowSize = useContext(WindowSizeContext);
+  const windowHeight = windowSize.innerHeight;
+  const windowWidth = windowSize.innerWidth;
+  const heightNeeded = windowHeight - 1;
 
+  const mainGridStyle = {
+    height: `${heightNeeded}px`,
+  };
+  const scrollPosition = useContext(ScrollContext);
 
-const Uni=()=>{
-  const windowSize=useContext(WindowSizeContext)
-  const windowHeight=windowSize.innerHeight;
-  const windowWidth=windowSize.innerWidth;
-  const heightNeeded=windowHeight-1;
-  
-  
-  const mainGridStyle={
-    height:`${heightNeeded}px`
+  return (
+    <div
+      className="mainGrid overflow-x-hidden md:overflow-x-visible"
+      style={mainGridStyle}
+    >
+      <div>
+        <Header />
+      </div>
 
-    
-  }
-  const scrollPosition=useContext(ScrollContext);
-
-  return(
-    
-      <div className="mainGrid " style={mainGridStyle} >
-      <div><Header/></div>
-      
-      <div className="bodyPart">
-        <UniIntro/>
-        <Split3/>
-        <Split2/>
-        <InfoText/>
-        <Visa/>
-        <Rewards/>
-        <Emi/>
-        <CashOut/>
-        <FreeText/>
-        <InstantCredit/>
-        <InControl/>
-        <ThreeGrid/>
-        <SBM/>
-        <Download/>
-        <Security/>
-        <About/>
-        
-</div>
-    {windowWidth>770?(scrollPosition>=360?<Footer/>:""):(<ApplyMobileView/>)}
-    
-      
-
+      <div className="bodyPart ">
+        <UniIntro />
+        <Split3 />
+        <Split2 />
+        <InfoText />
+        <Visa />
+        <Rewards />
+        <Emi />
+        <CashOut />
+        <FreeText />
+        <InstantCredit />
+        <InControl />
+        <ThreeGrid />
+        <SBM />
+        <Download />
+        <Security />
+        <About />
+      </div>
+      {windowWidth > 768 ? (
+        scrollPosition >= 360 ? (
+          <Footer />
+        ) : (
+          ""
+        )
+      ) : (
+        <ApplyMobileView />
+      )}
     </div>
-    
-    
-  )
-}
+  );
+};
 
-export default Uni
+export default Uni;

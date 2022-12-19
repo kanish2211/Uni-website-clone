@@ -1,7 +1,7 @@
 {
   "name": "uni-clone",
   "version": "0.1.0",
-  "homepage":  "https://kanish2211.github.io/Uni-website-clone",
+  "homepage": "https://kanish2211.github.io/Uni-website-clone",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",

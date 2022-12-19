@@ -1,33 +1,35 @@
-import React,{useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import WindowSizeContext from "../context/windowSizeContext";
-const WindowResize=(props)=>{
-    const [windowSize, setWindowSize] = useState({innerWidth:1535,innerHeight:714});
-  
+const WindowResize = (props) => {
+  const [windowSize, setWindowSize] = useState({
+    innerWidth: 1535,
+    innerHeight: 714,
+  });
 
   useEffect(() => {
+    handleWindowResize();
     function handleWindowResize() {
-      const size=getWindowSize()
+      const size = getWindowSize();
       setWindowSize(size);
     }
 
-    window.addEventListener('resize', handleWindowResize);
+    window.addEventListener("resize", handleWindowResize);
 
     return () => {
-      window.removeEventListener('resize', handleWindowResize);
+      window.removeEventListener("resize", handleWindowResize);
     };
   }, [windowSize]);
   function getWindowSize() {
-    const {innerWidth, innerHeight} = window;
-    return {innerWidth, innerHeight};
+    const { innerWidth, innerHeight } = window;
+    return { innerWidth, innerHeight };
   }
   console.log(windowSize.innerHeight);
   console.log(windowSize.innerWidth);
-  return(
+  return (
     <WindowSizeContext.Provider value={windowSize}>
       {props.children}
     </WindowSizeContext.Provider>
-  )
+  );
+};
 
-}
-
-export default WindowResize
+export default WindowResize;

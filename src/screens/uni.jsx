@@ -34,10 +34,7 @@ const Uni = () => {
   const scrollPosition = useContext(ScrollContext);
 
   return (
-    <div
-      className="mainGrid overflow-x-hidden md:overflow-x-visible"
-      style={mainGridStyle}
-    >
+    <div className="mainGrid " style={mainGridStyle}>
       <div>
         <Header />
       </div>

@@ -59,7 +59,7 @@ const Split2 = () => {
       ) : (
         <div>
           <div className=" " style={screenHeight}>
-            <div className=" flex mx-auto justify-center">
+            <div className=" flex  justify-center">
               {" "}
               <video
                 className="w-60 "

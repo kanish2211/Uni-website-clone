@@ -62,7 +62,7 @@ const Split3 = () => {
       ) : (
         <div>
           <div className="bg-black -mt-20" style={screenHeight}>
-            <div className=" flex  ustify-center mx-auto">
+            <div className=" flex  justify-center ">
               {" "}
               <video
                 className="w-60 "

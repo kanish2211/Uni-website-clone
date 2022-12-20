@@ -23,8 +23,7 @@ const WindowResize = (props) => {
     const { innerWidth, innerHeight } = window;
     return { innerWidth, innerHeight };
   }
-  console.debug(windowSize.innerHeight);
-  console.debug(windowSize.innerWidth);
+  
   return (
     <WindowSizeContext.Provider value={windowSize}>
       {props.children}

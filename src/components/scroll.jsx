@@ -17,7 +17,7 @@ const ScrollPosition = (props) => {
     };
   }, [scroll]);
 
-  console.debug(scroll);
+  
   return (
     <ScrollContext.Provider value={scroll}>
       {props.children}

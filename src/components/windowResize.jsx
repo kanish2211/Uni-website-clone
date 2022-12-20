@@ -5,14 +5,15 @@ const WindowResize = (props) => {
     innerWidth: 1535,
     innerHeight: 714,
   });
-
+  function handleWindowResize() {
+    const size = getWindowSize();
+    setWindowSize(size);
+  }
   useEffect(() => {
     handleWindowResize();
-    function handleWindowResize() {
-      const size = getWindowSize();
-      setWindowSize(size);
-    }
+  }, []);
 
+  useEffect(() => {
     window.addEventListener("resize", handleWindowResize);
 
     return () => {
@@ -23,7 +24,7 @@ const WindowResize = (props) => {
     const { innerWidth, innerHeight } = window;
     return { innerWidth, innerHeight };
   }
-  
+
   return (
     <WindowSizeContext.Provider value={windowSize}>
       {props.children}

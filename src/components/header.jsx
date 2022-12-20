@@ -7,7 +7,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   const window = useContext(WindowSizeContext);
   const width = window.innerWidth;
-  console.log("width", width);
+  console.debug("width", width);
   return (
     <div className="header overflow-x-visible md:overflow-x-hidden">
       <div>

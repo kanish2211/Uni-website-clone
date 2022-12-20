@@ -7,7 +7,7 @@ const UniIntro = () => {
   const width = window.innerWidth;
   const height = window.innerHeight;
   const neededHeight = height - 90;
-  console.log("wnbbidth", width);
+  console.debug("wnbbidth", width);
   const screenHeight = {
     height: `${neededHeight}px`,
   };
